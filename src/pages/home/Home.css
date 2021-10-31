@@ -1,0 +1,72 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.image {
+  height: 40rem;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.action {
+  position: absolute;
+  z-index: 10;
+}
+.title {
+  color: #020042;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  width: 66%;
+  height: 168px;
+  margin-left: 21%;
+  margin-right: 13%;
+  margin-top: 32%;
+}
+.subtitle {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 58%;
+  height: 72px;
+  margin-right: 20%;
+  margin-left: 21%;
+}
+.action {
+  width: 50%;
+  height: 14%;
+  background: #4ba3c3;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action h1 {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.80rem;
+  transition: transform 450ms;
+  color: #FFFFFF;
+  margin-right:10.42% ;
+
+  
+}
+
+#arrow {
+    color: #FFFFFF;
+    transition: transform 450ms;
+    font-size: 17px;
+  }
+
+.action:hover h1 {
+  transform: scale(1.08);
+}
+.action:hover ion-icon {
+    transform: scale(1.5);
+}

@@ -1,0 +1,44 @@
+.services-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.services-image {
+  position: relative;
+  margin-top: 25rem;
+}
+.services-image img {
+  position: absolute;
+  z-index: 10;
+  height: 30rem;
+  width: 25rem;
+  margin-top: -17.5rem;
+  margin-left: 22%;
+}
+.services-information {
+  margin-left: 24%;
+}
+.title-services {
+  color: #020042;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  width: 66%;
+  margin-top: 30%;
+  margin-bottom: 2rem;
+}
+.subtitle {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 58%;
+  height: 72px;
+}
+.prices {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 1rem;
+}
