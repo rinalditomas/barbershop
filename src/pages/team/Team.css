@@ -1,0 +1,45 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team {
+  display: flex;
+  position: relative;
+}
+.image-container {
+  margin: 3rem;
+  position: relative;
+  background-color: black;
+
+}
+.image-container img {
+    height: 100%;
+  width: 15rem;
+  position: relative;
+  opacity: 0.4;
+  
+}
+.image-container img:hover {
+
+  opacity: 1;
+  
+}
+
+.image-container p {
+  position: absolute;
+  z-index: 10;
+  margin-bottom: 10rem;
+  color: white;
+  margin-top: -2.5rem;
+  margin-left: 1rem;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 27px;
+}
+.team-btn{
+    align-self: flex-end;
+    margin-right: 16rem;
+    margin-bottom: 2rem;
+}

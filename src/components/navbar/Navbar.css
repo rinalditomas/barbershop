@@ -1,6 +1,6 @@
 .navbar {
   background-color:transparent;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   height: 5rem;
   display: flex;
@@ -16,6 +16,10 @@
 .logo img {
   width: 6.5rem;
   height: 4.7;
+}
+.black{
+  background-color: black;
+  opacity: 0.5;
 }
 .desktop {
   display: flex;
