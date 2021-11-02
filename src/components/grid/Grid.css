@@ -1,0 +1,13 @@
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 320px 320px;
+    gap: 25px 25px;
+    justify-content: center;
+    align-content: center;
+  }
+  .gallery-img {
+    width: 20rem;
+    height: auto;
+  }
