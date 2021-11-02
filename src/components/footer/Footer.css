@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo img {
+  width: 6.5rem;
+  height: 4.7;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.links p{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    transition: transform 450ms;
+    cursor: pointer;
+
+}
+.links p:hover{
+    transform: scale(1.08);
+    
+}
+.copyright{
+    margin-bottom: 4rem;
+    font-size: 1rem;
+}
