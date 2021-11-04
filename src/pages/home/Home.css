@@ -12,8 +12,8 @@
   align-items: flex-end;
 }
 .action {
-  position: absolute;
-  z-index: 10;
+  position: relative;
+ 
 }
 .title {
   color: #020042;
